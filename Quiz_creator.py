@@ -10,12 +10,12 @@ while True:
     choice_d = input("Choice D: ")
 
     answer = input("What is the correct answer? (A, B, C OR D): ").upper()
-    questions.append({f"question: ": question, "choices: ": {"A": choice_a,
-                                                             "B": choice_b,
-                                                             "C": choice_c,
-                                                             "D": choice_d},
-                      "correct answer: ": answer})
+    questions.append({f"question: ": question,
+                      "choices: ": {"A": choice_a,
+                                    "B": choice_b,
+                                    "C": choice_c,
+                                    "D": choice_d}, "correct answer: ": answer})
 
-    print(questions)
+
 
 
