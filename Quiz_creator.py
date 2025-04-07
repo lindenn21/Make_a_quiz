@@ -9,4 +9,8 @@ while True:
     choice_c = input("Choice C: ")
     choice_d = input("Choice D: ")
 
+    answer = input("What is the correct answer? (A, B, C OR D): ").upper()
+
+
+
 
