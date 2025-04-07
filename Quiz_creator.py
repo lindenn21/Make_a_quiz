@@ -24,9 +24,14 @@ while True:
                                     "B": choice_b,
                                     "C": choice_c,
                                     "D": choice_d}, "correct answer: ": answer})
-    file.write(str(questions))
+    more_question = input("Would you like to add another question? (y/n): ").upper()
+    if more_question != "Y":
+        print("Thanks!!")
+        break
 
-    file.close()
+file.write(str(questions))
+
+file.close()
 
 
 
