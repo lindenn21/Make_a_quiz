@@ -1,5 +1,6 @@
 # Create a program that makes a quiz, it includes questions, multiple choices, and scoring.
 
+# Opens collected_data.txt
 file = open('collected_data.txt', 'w')
 
 # List of questions
@@ -24,11 +25,13 @@ while True:
                                     "B": choice_b,
                                     "C": choice_c,
                                     "D": choice_d}, "correct answer: ": answer})
+# Asks the user if they want to add more questions for their quiz. If they answer N, it will stop.
     more_question = input("Would you like to add another question? (y/n): ").upper()
     if more_question != "Y":
         print("Thanks!!")
         break
 
+# Writes the questions list into the txt file.
 file.write(str(questions))
 
 file.close()
