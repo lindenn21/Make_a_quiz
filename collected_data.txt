@@ -1,1 +1,11 @@
-[{'question: ': 'why is 1+1 2', 'choices: ': {'A': '2', 'B': '1', 'C': '3', 'D': '4'}, 'correct answer: ': 'A'}, {'question: ': 'haha', 'choices: ': {'A': 'kish', 'B': 'vincent', 'C': 'kent', 'D': 'romar'}, 'correct answer: ': 'A'}]
+Questions = {'question: ': 'is vincent tulgo na?', 'choices: ': {'A': 'oo', 'B': 'yes', 'C': 'no', 'D': 'baka hindi'}, 'correct answer: ': 'A'}
+ A = tulog
+ B= review
+ C = ewan
+ D = oo 
+ Correct answer = BQuestions = {'question: ': 'kissha san ka', 'choices: ': {'A': 'tulog', 'B': 'review', 'C': 'ewan', 'D': 'oo '}, 'correct answer: ': 'B'}
+ A = tulog
+ B= review
+ C = ewan
+ D = oo 
+ Correct answer = B
