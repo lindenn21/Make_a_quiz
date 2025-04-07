@@ -1,4 +1,7 @@
 # Create a program that makes a quiz, it includes questions, multiple choices, and scoring.
+
+file = open('collected_data.txt', 'w')
+
 # List of questions
 questions = []
 print("Enter as many questions with multiple choices as you want: ")
@@ -21,7 +24,9 @@ while True:
                                     "B": choice_b,
                                     "C": choice_c,
                                     "D": choice_d}, "correct answer: ": answer})
+    file.write(str(questions))
 
+    file.close()
 
 
 
