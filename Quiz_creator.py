@@ -34,7 +34,10 @@ while True:
 
 # Writes the questions list into the txt file.
 for question in questions:
-    file.write(str(f"Questions = {question}\n A = {choice_a}\n B= {choice_b}\n C = {choice_c}\n D = {choice_d}\n Correct answer = {answer}"))
+    file.write(f"Questions: {question}\n")
+    file.write(f"A: {choice_a}\n")
+    file.write(f"B: {choice_b}\n")
+    file.write(f"C: {choice_c}\n")
 
 file.close()
 

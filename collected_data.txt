@@ -1,11 +1,8 @@
-Questions = {'question: ': 'is vincent tulgo na?', 'choices: ': {'A': 'oo', 'B': 'yes', 'C': 'no', 'D': 'baka hindi'}, 'correct answer: ': 'A'}
- A = tulog
- B= review
- C = ewan
- D = oo 
- Correct answer = BQuestions = {'question: ': 'kissha san ka', 'choices: ': {'A': 'tulog', 'B': 'review', 'C': 'ewan', 'D': 'oo '}, 'correct answer: ': 'B'}
- A = tulog
- B= review
- C = ewan
- D = oo 
- Correct answer = B
+Questions: {'question: ': 'what is 1+1', 'choices: ': {'A': '1', 'B': '2', 'C': '3', 'D': '4'}, 'correct answer: ': '2'}
+A: 1
+B: 2
+C: 3
+Questions: {'question: ': 'what about 0+1', 'choices: ': {'A': '1', 'B': '2', 'C': '3', 'D': '7'}, 'correct answer: ': 'A'}
+A: 1
+B: 2
+C: 3
