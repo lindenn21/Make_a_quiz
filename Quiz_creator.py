@@ -25,20 +25,21 @@ while True:
                                     "B": choice_b,
                                     "C": choice_c,
                                     "D": choice_d}, "correct answer: ": answer})
-# Asks the user if they want to add more questions for their quiz. If they answer N, it will stop.
-    more_question = input("Would you like to add another question? (y/n): ").upper()
-    if more_question != "Y":
-        print("Thanks!!")
-        break
 
 
 # Writes the questions list into the txt file.
-for question in questions:
     file.write(f"Questions: {question}\n")
     file.write(f"A: {choice_a}\n")
     file.write(f"B: {choice_b}\n")
     file.write(f"C: {choice_c}\n")
     file.write(f"D: {choice_d}\n")
+    file.write(f"Correct Answer: {answer}\n")
+
+# Asks the user if they want to add more questions for their quiz. If they answer N, it will stop.
+    more_question = input("Would you like to add another question? (y/n): ").upper()
+    if more_question != "Y":
+        print("Thanks!!")
+        break
 
 file.close()
 

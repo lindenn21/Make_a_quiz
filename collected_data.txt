@@ -1,10 +1,12 @@
-Questions: {'question: ': 'hey', 'choices: ': {'A': '1', 'B': '2', 'C': '3', 'D': '4'}, 'correct answer: ': 'A'}
-A: 7
-B: 8
-C: 9
-D: 0
-Questions: {'question: ': 'lol', 'choices: ': {'A': '7', 'B': '8', 'C': '9', 'D': '0'}, 'correct answer: ': 'C'}
-A: 7
-B: 8
-C: 9
-D: 0
+Questions: hi kish
+A: hello
+B: hey
+C: hi babyco
+D: ok
+Correct Answer: C
+Questions: hoi
+A: ok
+B: hha
+C: bahala na
+D: ok
+Correct Answer: D
