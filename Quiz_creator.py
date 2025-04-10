@@ -38,6 +38,7 @@ for question in questions:
     file.write(f"A: {choice_a}\n")
     file.write(f"B: {choice_b}\n")
     file.write(f"C: {choice_c}\n")
+    file.write(f"D: {choice_d}\n")
 
 file.close()
 
