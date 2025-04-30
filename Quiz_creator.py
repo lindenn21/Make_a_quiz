@@ -26,7 +26,7 @@ while True:
                                     "C": choice_c,
                                     "D": choice_d}, "correct answer: ": answer})
 
-
+    
 # Writes the questions list into the txt file.
     file.write(f"Questions: {question}\n")
     file.write(f"A: {choice_a}\n")
