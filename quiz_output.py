@@ -12,6 +12,13 @@ while num < len(quiz_content):
     # Sets the line num and strip() cleans \n and unnecessary spaces
     line = quiz_content[num].strip()
     if line.startswith("Question:"):
+        question = line[num].strip()
+        a = line[num + 1].strip()
+        b = line[num + 2].strip()
+        c = line[num + 2].strip()
+        d = line[num + 2].strip()
+        b = line[num + 2].strip()
+
 
 
 
