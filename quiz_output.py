@@ -18,6 +18,14 @@ while num < len(quiz_content):
         c = line[num + 3].strip()
         d = line[num + 4].strip()
         answer = line[num + 5].strip()
+        quiz.append({
+            f"question": question,
+            "choices": {"A": a, "B": b,
+                        "C": c, "D": d},
+            "correct answer": answer
+        })
+
+
 
 
 
