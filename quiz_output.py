@@ -15,9 +15,9 @@ while num < len(quiz_content):
         question = line[num].strip()
         a = line[num + 1].strip()
         b = line[num + 2].strip()
-        c = line[num + 2].strip()
-        d = line[num + 2].strip()
-        b = line[num + 2].strip()
+        c = line[num + 3].strip()
+        d = line[num + 4].strip()
+        answer = line[num + 5].strip()
 
 
 
