@@ -1,9 +1,11 @@
-# 1. Read collected_data.txt
-# 2. Randomize the lines
 
 import random
 import time
 
+print("Take a breather, you're about to take the quiz in")
+
+# Timer
+time.sleep(1)
 for i in range(3, 0, -1):
     print(f"{i}\n")
     time.sleep(1)
@@ -59,13 +61,14 @@ for item in quiz:
         print(f"Sorry! The correct answer is {item['correct_answer']}")
         question_num += 1
 
+# The message will vary if the user passed or not.
 percent = score / len(quiz) * 100
 passing_score = 75
 
 if percent > passing_score:
-    print(f"Nice! You scored {score}, you passed the quiz!")
+    print(f"Nice! You scored {score}/{len(quiz)}, you passed the quiz!")
 else:
-    print(f"It's okay! You can do better next time, you scored {score}.")
+    print(f"It's okay! You can do better next time, you scored {score}/{len(quiz)}.")
 
 print("Thank you for answering!")
 

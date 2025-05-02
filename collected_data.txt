@@ -6,7 +6,25 @@ D: 4
 B
 Questions: mako
 A: cat
-B: dog
-C: adult human
+B: fat
+C: dog
 D: rat
 A
+Questions: miho
+A: fat
+B: thin
+C: chonky
+D: bones
+C
+Questions: xzye
+A: thin
+B: bones
+C: nonexisten fat
+D: barely any
+A
+Questions: mori
+A: as big as the universe
+B: as big as our solar system
+C: just an ecosystem sized cat
+D: obese american level
+D
