@@ -1,5 +1,7 @@
 # Create a program that makes a quiz, it includes questions, multiple choices, and scoring.
 
+import time
+
 # Opens collected_data.txt
 file = open('collected_data.txt', 'w')
 
@@ -38,7 +40,11 @@ while True:
 # Asks the user if they want to add more questions for their quiz. If they answer N, it will stop.
     more_question = input("Would you like to add another question? (y/n): ").upper()
     if more_question != "Y":
-        print("Thanks!!")
+        print(f"Preparing your quiz in..")
+        for i in range(3, 0, -1):
+            print(f"{i}")
+            time.sleep(1)
+        print("Your quiz is ready to be answered! Thank you.")
         break
 
 file.close()
