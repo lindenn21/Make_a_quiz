@@ -52,14 +52,22 @@ for item in quiz:
     users_answer = input("What is your answer?: (A/B/C/D): ").strip().upper()
 
     if users_answer == item['correct_answer'].upper():
-        print("That is correct!")
+        print("Goodjob, that is correct!")
         score += 1
         question_num += 1
     else:
-        print(f"Wrong! The correct answer is {item['correct_answer']}")
+        print(f"Sorry! The correct answer is {item['correct_answer']}")
         question_num += 1
 
-print(f"Thank you! Your score is {score}")
+percent = score / len(quiz) * 100
+passing_score = 75
+
+if percent > passing_score:
+    print(f"Nice! You scored {score}, you passed the quiz!")
+else:
+    print(f"It's okay! You can do better next time, you scored {score}.")
+
+print("Thank you for answering!")
 
 
 
