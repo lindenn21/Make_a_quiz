@@ -47,6 +47,7 @@ for item in quiz:
     if users_answer == item['correct_answer'].upper():
         print("That is correct!")
         score += 1
+        question_num += 1
     else:
         print(f"Wrong! The correct answer is {item['correct_answer']}")
         question_num += 1
