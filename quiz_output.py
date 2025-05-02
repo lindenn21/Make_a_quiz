@@ -39,6 +39,10 @@ for item in quiz:
     print(f"B. {choices['B']}")
     print(f"C. {choices['C']}")
     print(f"D. {choices['D']}")
+    users_answer = input("What is your answer?: (A/B/C/D): ").strip().upper()
+    if users_answer == item["correct_answer"].upper():
+        print("That is correct!")
+
 
 
 
