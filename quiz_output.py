@@ -2,6 +2,8 @@
 # 2. Randomize the lines
 
 import random
+import time
+time.sleep(3)
 # Opens the txt file with inputted questions and answers
 with open("collected_data.txt", "r") as the_quiz:
     quiz_content = the_quiz.readlines()
