@@ -3,7 +3,7 @@
 
 import random
 import time
-time.sleep(3)
+
 for i in range(3, 0, -1):
     print(f"{i}\n")
     time.sleep(1)
