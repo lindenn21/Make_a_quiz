@@ -34,6 +34,13 @@ question_num = 1
 
 for item in quiz:
     print(f"\nQuestion: {question_num}: {item['question'][9:].strip()}") # reads only after the prefix "Question:"
+    choices = item["choices"]
+    print(f"A. {choices['A']}")
+    print(f"B. {choices['B']}")
+    print(f"C. {choices['C']}")
+    print(f"D. {choices['D']}")
+
+
 
 
 
