@@ -29,6 +29,14 @@ while num < len(quiz_content):
     else:
         num += 1
 
+score = 0
+question_num = 1
+
+for item in quiz:
+    print(f"\nQuestion: {question_num}: {item['question'][9:].strip()}") # reads only after the prefix "Question:"
+
+
+
 
 
 
