@@ -42,6 +42,12 @@ for item in quiz:
     users_answer = input("What is your answer?: (A/B/C/D): ").strip().upper()
     if users_answer == item["correct_answer"].upper():
         print("That is correct!")
+        score += 1
+    else:
+        print(f"Wrong! The correct answer is {item['correct_answer']}")
+    question_num += 1
+
+
 
 
 
