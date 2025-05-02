@@ -11,8 +11,8 @@ num = 0
 while num < len(quiz_content):
     # Sets the line num and strip() cleans \n and unnecessary spaces
     line = quiz_content[num].strip()
-    if line.startswith("Question:"):
-        question = line[num].strip()
+    if line.startswith("Questions: "):
+        question = line.strip()
         a = line[num + 1].strip()
         b = line[num + 2].strip()
         c = line[num + 3].strip()
@@ -22,12 +22,13 @@ while num < len(quiz_content):
             f"question": question,
             "choices": {"A": a, "B": b,
                         "C": c, "D": d},
-            "correct answer": answer
+            "correct_answer": answer
         })
 
         num += 6
     else:
         num += 1
+
 
 score = 0
 question_num = 1
@@ -47,7 +48,7 @@ for item in quiz:
         print(f"Wrong! The correct answer is {item['correct_answer']}")
     question_num += 1
 
-
+print(f"Thank you! Your score is {score}")
 
 
 
