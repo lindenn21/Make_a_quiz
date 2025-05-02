@@ -17,7 +17,7 @@ while num < len(quiz_content):
         b = quiz_content[num + 2].strip()
         c = quiz_content[num + 3].strip()
         d = quiz_content[num + 4].strip()
-        answer = line[num + 5].strip()
+        answer = quiz_content[num + 5].strip().upper()
         quiz.append({
             f"question": question,
             "choices": {"A": a, "B": b,
@@ -41,12 +41,13 @@ for item in quiz:
     print(f"C. {choices['C']}")
     print(f"D. {choices['D']}")
     users_answer = input("What is your answer?: (A/B/C/D): ").strip().upper()
-    if users_answer == item["correct_answer"].upper():
+
+    if users_answer == item['correct_answer'].upper():
         print("That is correct!")
         score += 1
     else:
         print(f"Wrong! The correct answer is {item['correct_answer']}")
-    question_num += 1
+        question_num += 1
 
 print(f"Thank you! Your score is {score}")
 

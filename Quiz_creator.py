@@ -33,7 +33,7 @@ while True:
     file.write(f"B: {choice_b}\n")
     file.write(f"C: {choice_c}\n")
     file.write(f"D: {choice_d}\n")
-    file.write(f"Correct Answer: {answer}\n")
+    file.write(f"{answer}\n")
 
 # Asks the user if they want to add more questions for their quiz. If they answer N, it will stop.
     more_question = input("Would you like to add another question? (y/n): ").upper()

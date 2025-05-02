@@ -1,18 +1,12 @@
-Questions: what is 1+1
+Questions: 1+1
 A: 1
 B: 2
 C: 3
 D: 4
-Correct Answer: B
-Questions: what is 3+3
-A: 2
-B: 3
-C: 5
-D: 6
-Correct Answer: D
-Questions: is mako a cat?
-A: yes
-B: no
-C: maybe
-D: idk
-Correct Answer: A
+B
+Questions: mako
+A: cat
+B: dog
+C: adult human
+D: rat
+A
