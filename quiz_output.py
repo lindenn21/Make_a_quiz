@@ -25,6 +25,16 @@ while num < len(quiz_content):
             "correct answer": answer
         })
 
+        num += 6
+    else:
+        num += 1
+
+
+
+
+
+
+
 
 
 
