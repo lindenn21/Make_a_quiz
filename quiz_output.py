@@ -4,6 +4,11 @@
 import random
 import time
 time.sleep(3)
+for i in range(3, 0, -1):
+    print(f"{i}\n")
+    time.sleep(1)
+print("GOODLUCK!!")
+
 # Opens the txt file with inputted questions and answers
 with open("collected_data.txt", "r") as the_quiz:
     quiz_content = the_quiz.readlines()
