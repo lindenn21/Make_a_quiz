@@ -13,10 +13,10 @@ while num < len(quiz_content):
     line = quiz_content[num].strip()
     if line.startswith("Questions: "):
         question = line.strip()
-        a = line[num + 1].strip()
-        b = line[num + 2].strip()
-        c = line[num + 3].strip()
-        d = line[num + 4].strip()
+        a = quiz_content[num + 1].strip()
+        b = quiz_content[num + 2].strip()
+        c = quiz_content[num + 3].strip()
+        d = quiz_content[num + 4].strip()
         answer = line[num + 5].strip()
         quiz.append({
             f"question": question,
@@ -34,7 +34,7 @@ score = 0
 question_num = 1
 
 for item in quiz:
-    print(f"\nQuestion: {question_num}: {item['question'][9:].strip()}") # reads only after the prefix "Question:"
+    print(f"\nQuestion {question_num}: {item['question'][9:].strip()}") # reads only after the prefix "Question:"
     choices = item["choices"]
     print(f"A. {choices['A']}")
     print(f"B. {choices['B']}")
